@@ -28,9 +28,8 @@ def save_movie(video_data, dt=0.04):
 
 
 cwd_path = os.getcwd()
-xml_path = os.path.join(cwd_path, 'example.xml')
-xml_path = os.path.join(cwd_path, "envs", 'n_link_arm.xml')
-
+xml_path = os.path.join(cwd_path, '8_link_arm.xml')
+print("model file is located at {}".format(xml_path))
 model = mujoco_py.load_model_from_path(xml_path)
 sim = mujoco_py.MjSim(model)
 data = sim.data
