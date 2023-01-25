@@ -1,0 +1,14 @@
+save_data
+save_sim_data
+test/reference/
+ffmpeg
+*pth
+*png
+*mp4
+*npz
+*gif
+__pycache__
+*joblib
+MUJOCO_LOG.TXT
+.ipynb_checkpoints
+.vscode

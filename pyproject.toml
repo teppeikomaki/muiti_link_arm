@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "n-link-mujoco"
+version = "0.1.0"
+description = ""
+authors = ["TeppeiKomaki"]
+
+[tool.poetry.dependencies]
+python = ">=3.8,<3.10"
+gym = "0.13.1"
+matplotlib = "3.4.3"
+jupyter = "^1.0.0"
+yapf = "^0.32.0"
+opencv-contrib-python = "^4.7.0"
+mujoco-py = "2.0.2.13"
+
+[tool.poetry.dev-dependencies]
+autopep8 = "^1.6.0"
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
